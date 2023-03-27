@@ -1,0 +1,21 @@
+server:
+  port: 9090
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/CRUD?createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
+    username: postgres
+    password: Sonu@7240
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+#debug: true
+
+#logging:
+#  level:
+#    web: debug
+#    root: warn
+#    sql: trace
